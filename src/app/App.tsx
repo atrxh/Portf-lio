@@ -36,7 +36,7 @@ const projects = [
     label: "html // css // js",
     desc: "Portfólio pessoal responsivo com design limpo, focado em usabilidade e acessibilidade.",
     tags: ["HTML5", "CSS3", "JavaScript"],
-    repo: `${GITHUB}/portfolio`,
+    repo: `${GITHUB}/Portf-lio`,
     img: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=640&h=360&fit=crop&auto=format",
   },
   {
