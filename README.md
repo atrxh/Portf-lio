@@ -1,11 +1,9 @@
 
-  # Arthur's Responsive Portfolio Site
+  # Arthur's Portfolio Site
 
-  This is the source code for Arthur's Responsive Portfolio Site.
+  Esse é o projeto do meu portfólio.
 
-  ## Running the code
+  ## Acesse
 
-  Run `npm i` to install the dependencies.
-
-  Run `npm run dev` to start the development server.
-  
+  https://portf-lio-rho-eight.vercel.app/
+    
