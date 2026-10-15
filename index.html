@@ -1,21 +1,25 @@
-
-  <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Arthur - Portfólio</title>
-      <meta name="description" content="Showcases a professional portfolio for Arthur, highlighting skills in inventory management and programming, with links to GitHub projects and contact options." />
-      <style>html, body { height: 100%; margin: 0; } #root { height: 100%; }</style>
-      
-    </head>
-
-    <body>
-      
-      <div id="root"></div>
-      <script type="module" src="/src/main.tsx"></script>
-      
-    </body>
-  </html>
-  
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="%BASE_URL%assets/logo.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0a0a0a" />
+  <meta name="description" content="Portfólio de Arthur Guilherme Gomes da Silva: projetos de software, Python, automação e experiência em rotinas administrativas e logística." />
+  <title>Arthur Gomes da Silva | Portfólio</title>
+  <script type="text/javascript">
+    (function(l) {
+      if (l.search[1] === '/' ) {
+        var decoded = l.search.slice(1).split('&').map(function(s) { return s.replace(/~and~/g, '&') }).join('?');
+        window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+      }
+    }(window.location))
+  </script>
+  <script>
+    (function() {
+      try { var saved = localStorage.getItem('darkMode'); var isDark = saved !== null ? saved === 'true' : true; if (isDark) document.documentElement.classList.add('dark'); } catch(e) {}
+    })();
+  </script>
+</head>
+<body><div id="root"></div><script type="module" src="/src/main.jsx"></script></body>
+</html>
